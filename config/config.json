@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "volunteer-sign-in-sign-out-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/volunteerSignInSignOut/VolunteerSignInSignOutWebPart.js",
+          "manifest": "./src/webparts/volunteerSignInSignOut/VolunteerSignInSignOutWebPart.manifest.json"
+        }
+      ]
+    },
+    "volunteer-gaph-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/volunteerGaph/VolunteerGaphWebPart.js",
+          "manifest": "./src/webparts/volunteerGaph/VolunteerGaphWebPart.manifest.json"
+        }
+      ]
+    },
+    "employee-sign-in-signout-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeSignInSignout/EmployeeSignInSignoutWebPart.js",
+          "manifest": "./src/webparts/employeeSignInSignout/EmployeeSignInSignoutWebPart.manifest.json"
+        }
+      ]
+    },
+    "internal-vacant-position-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/internalVacantPosition/InternalVacantPositionWebPart.js",
+          "manifest": "./src/webparts/internalVacantPosition/InternalVacantPositionWebPart.manifest.json"
+        }
+      ]
+    },
+    "volunteer-open-position-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/volunteerOpenPosition/VolunteerOpenPositionWebPart.js",
+          "manifest": "./src/webparts/volunteerOpenPosition/VolunteerOpenPositionWebPart.manifest.json"
+        }
+      ]
+    },
+    "partner-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/partnerWp/PartnerWpWebPart.js",
+          "manifest": "./src/webparts/partnerWp/PartnerWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VolunteerSignInSignOutWebPartStrings": "lib/webparts/volunteerSignInSignOut/loc/{locale}.js",
+    "VolunteerGaphWebPartStrings": "lib/webparts/volunteerGaph/loc/{locale}.js",
+    "EmployeeSignInSignoutWebPartStrings": "lib/webparts/employeeSignInSignout/loc/{locale}.js",
+    "InternalVacantPositionWebPartStrings": "lib/webparts/internalVacantPosition/loc/{locale}.js",
+    "VolunteerOpenPositionWebPartStrings": "lib/webparts/volunteerOpenPosition/loc/{locale}.js",
+    "PartnerWpWebPartStrings": "lib/webparts/partnerWp/loc/{locale}.js"
+  }
+}

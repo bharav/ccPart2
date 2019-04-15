@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cc-singn-in-sign-out-client-side-solution",
+    "id": "c31ccfd2-ef1b-4ad7-9767-fb257ccd052f",
+    "version": "1.2.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/cc-singn-in-sign-out.sppkg"
+  }
+}
